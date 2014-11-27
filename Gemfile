@@ -50,3 +50,14 @@ group :development, :test do
   gem "sqlite3"
 end
 
+# Helpful gems
+gem "better_errors" # improves error handling
+gem "binding_of_caller" # used by better errors
+# Testing frameworks
+gem 'rspec-rails' # testing framework
+gem "factory_girl_rails" # use factories, not fixtures
+gem "capybara" # simulate browser activity
+gem "fakeweb"
+# Automated testing
+gem 'guard' # automated execution of test suite upon change
+gem "guard-rspec" # guard integration with rspec
